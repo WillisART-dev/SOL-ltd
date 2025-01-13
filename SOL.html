@@ -7,14 +7,16 @@
         <link rel="shortcut icon" href="logo.png" type="image/x-icon">
 
     <!--JAVASCRIPT-->
-      <script src="js/fontawesome.js"></script>
+      <script src="fontawesome/js/fontawesome.js"></script>
 
       
     
       <!--css-->
-      <link rel="stylesheet" href="css/all.css">
+      <link rel="stylesheet" href="fontawesome/css/all.css">
       <link rel="stylesheet" href="style1.css">
       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+      <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;700&family=Lato:wght@400;700&family=Montserrat:wght@400;700&family=Poppins:wght@400;700&family=Raleway:wght@400;700&family=Nunito:wght@400;700&family=Ubuntu:wght@400;700&family=Merriweather:wght@400;700&family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
   </head>
   <body>
 
@@ -68,30 +70,36 @@
 </section>
       
 
-    <!--About-->
-  <section class="about" id="about">
-      <div class="box-1">
-          <hr> <h4>Things you need to know...</h4>
-             <h3>About <span>Us</span></h3>
-             <ul>
-      <li><i class='fa fa-tags' aria-hidden="true"></i> we cargo from Nigeria to UK, Canada, USA, Ireland, Australia, France and all over the world.</li>
-      <li><i class='fa fa-tags' aria-hidden="true"></i> we ship your favorite food items from Nigeria to your doorstep in UK, USA and Canada.</li>
-             
-            </ul>
-        </div>
-      <div class="box-2"></div>
-  </section>  
+<!-- About -->
+<section class="about" id="about">
+  <div class="about-container">
+    <div class="about-content">
+      <h4>Things you need to know...</h4>
+      <h3>About <span>Us</span></h3>
+      <ul>
+        <li><i class='fa fa-tags' aria-hidden="true"></i> We cargo from Nigeria to UK, Canada, USA, Ireland, Australia, France and all over the world.</li>
+        <li><i class='fa fa-tags' aria-hidden="true"></i> We ship your favorite food items from Nigeria to your doorstep in UK, USA and Canada.</li>
+      </ul>
+    </div>
+    <div class="about-image">
+      <img src="about.jpg" alt="About Us">
+    </div>
+  </div>
+</section>
+
 
 <!--Services-->
+
+<div class="we-offer-container">
+  <h1 class="we-offer">WE OFFER...</h1>
+</div>
 <section class="service" id="services">
 
-  <div class="SERV">
-<h1 class="why">WE OFFER...</h1>
-</div>
+ 
 <div class="cards">
    <div class="card card1">
        <div class="container">
-          <img src="57.png" alt="one">
+          <img src="air.jpg" alt="one">
        </div>
        <div class="details">
         <h3>Air Cargo Services</h3>
@@ -102,7 +110,7 @@
 
    <div class="card card2">
     <div class="container">
-       <img src="25.jfif" alt="two">
+       <img src="sea1.jpg" alt="two">
     </div>
     <div class="details">
      <h3>Sea Export</h3>
@@ -112,7 +120,7 @@
 
 <div class="card card3">
   <div class="container">
-     <img src="56.jpg" alt="three">
+     <img src="ware.jpg" alt="three">
   </div>
   <div class="details">
    <h3>Warehousing</h3>
@@ -122,7 +130,7 @@
 
 <div class="card card4">
   <div class="container">
-     <img src="27.jpg" alt="one">
+     <img src="haul.jpg" alt="one">
   </div>
   <div class="details">
    <h3>Haulage</h3>
@@ -132,7 +140,7 @@
 
 <div class="card card5">
 <div class="container">
-  <img src="46.jpg" alt="two">
+  <img src="sales.jpg" alt="two">
 </div>
 <div class="details">
 <h3>Sales & Export of African Food Items</h3>
@@ -160,47 +168,54 @@
 
  <!--Contact Us-->
  <section class="contact" id="contact">
-          
-    <div class="contact-form">
-       <h1>Contact<span>Us</span></h1>
-       <p>Always provide <span>a complete address, postal code,<br>
-           phone number and full name.</span></p>
-  
-      <form action="">
-          <input type="text" placeholder="Full name" required>
-          <input type="text" placeholder="Contact" required>
-          <input type="text" placeholder="Postal Code" required>           
-          <textarea name="" id="" cols="30" rows="10" placeholder="Enter Address" required></textarea>
-          <input type="submit" name="" value="Send Message" class="btn">
-
+  <div class="contact-container">
+    <div class="contact-content">
+      <h2> Contact <span>Us</span></h2>
+      <p>We are here to assist you. Reach out to us through any of the following methods:</p>
+      <form action="#" method="post">
+        <div class="form-group">
+          <input type="text" name="name" placeholder="Your Name" required>
+        </div>
+        <div class="form-group">
+          <input type="email" name="email" placeholder="Your Email" required>
+        </div>
+        <div class="form-group">
+          <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        </div>
+        <button type="submit" class="btn">Send Message</button>
       </form>
- </div>
-  <div class="contact2">
-    <p> HELLO ></p>
-</div>
-
- </section>
+    </div>
+    <div class="contact-image">
+      <img src="contact-image.jpg" alt="Contact Us">
+    </div>
+  </div>
+</section>
 
 
 <!--Footer-->  
-  <div id="footer">
+<!-- Footer -->
+<footer id="footer">
+  <div class="footer-container">
     <div class="footer-logo">
-      <a href="#"><img src="logo.png"></a>
-         </div> 
-         <h4><i class="fa-brands fa-square-whatsapp" style="color: #185b06;"></i> 08056312721</h4>
-         <h4>afriexportss@gmail.com</h4>
-
-         <h1 class="head">FOLLOW US</h1>
-         <div class="footer-social"> 
-          
-          <a href="#"><i class='fa-brands fa-instagram'></i></a>
-          <a href="#"><i class='fa-brands fa-x-twitter'></i></a>
-          <a href="#"><i class='fa-brands fa-facebook-f'></i></a>
-          <a href="#"><i class='fa-brands fa-tiktok'></i></a>
-         </div>
-
-    <h5>&copy2023 Solape Of Lagos. All rights reserved.</h5>
+      <a href="#"><img src="logo.png" alt="Company Logo"></a>
+    </div>
+    <div class="footer-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact Us</a>
+    </div>
+    <div class="footer-social">
+      <a href="#"><i class='fa-brands fa-instagram'></i></a>
+      <a href="#"><i class='fa-brands fa-x-twitter'></i></a>
+      <a href="#"><i class='fa-brands fa-facebook-f'></i></a>
+      <a href="#"><i class='fa-brands fa-tiktok'></i></a>
+    </div>
+    <div class="footer-copyright">
+      <p>&copy; 2023 S.O.L AFRIEXPORTS LTD. All rights reserved.</p>
+    </div>
   </div>
+</footer>
 
 
   <script src="SOL.js"></script>
